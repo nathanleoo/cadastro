@@ -22,18 +22,17 @@ int main() {
         printf("3. Sair\n");
         printf("Escolha uma opção: ");
         scanf("%d", &opcao);
-        getchar(); // limpar o buffer do teclado
+        getchar(); 
 
         switch (opcao) {
             case 1:
                 if (total < MAX_PESSOAS) {
                     printf("Digite o nome: ");
                     fgets(pessoas[total].nome, TAM_NOME, stdin);
-                    pessoas[total].nome[strcspn(pessoas[total].nome, "\n")] = '\0'; // remover \n
-
+                    pessoas[total].nome[strcspn(pessoas[total].nome, "\n")] = '\0'; 
                     printf("Digite a idade: ");
                     scanf("%d", &pessoas[total].idade);
-                    getchar(); // limpar buffer
+                    getchar(); 
                     total++;
 
                     printf("Pessoa cadastrada com sucesso!\n");
