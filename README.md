@@ -29,7 +29,7 @@ Um mini sistema em C que permite **cadastrar, listar, buscar, editar e excluir p
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/nathanleoo/cadastro.git
 cd nome-do-repositorio
 ```
 
